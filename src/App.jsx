@@ -1,9 +1,11 @@
 
 function App() {
   return (
-    <div>
-      <h1>Cassarim, Fernandito e Ml sãoviados, Fillipe Goat.</h1>
-    </div>
+    <header>
+      <div className="Cabeça">
+        <img src="./img/logo.png" alt="Sabores da ferrovia" /> 
+      </div>
+    </header>
   );
 }
 
