@@ -8,7 +8,6 @@ export const HomePage = () => {
                 <div class="flex items-center">
                 </div>
             </div>
-
             <Footer />
         </div>
     );
