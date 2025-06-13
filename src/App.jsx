@@ -9,9 +9,8 @@ function App() {
           </div> 
       </div>
       <div className="Home"> 
-        <img src="./img/facebook.png" alt="Login Facebook" width={40} height={40} className="object-contain"/>
-        <div className="flex items-end"></div>
-  </div>
+        <img src="./img/facebook.png" alt="Login Facebook" width={40} height={40} className="object-contain"/> 
+        </div>
         </div>
         
 
