@@ -6,6 +6,8 @@ export const HomePage = () => {
             <div>
                 <img src="./img/logonova.png" alt="Sabores da ferrovia" width={200} height={200} className="object-contain" />
                 <div class="flex items-center">
+
+                    <h1>Oii</h1>
             
                 </div>
             </div>
