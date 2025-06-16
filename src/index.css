@@ -46,7 +46,9 @@ header {
   flex: 1;
   display: flex;
   justify-content: flex-start;
-  padding: 50px;
+  padding: 1px;
+  border: 2px solid #721424;
+  border-radius: 20px;
 }
 
 .search-bar {
@@ -58,12 +60,11 @@ header {
 }
 
 .search-bar i {
-  margin-right: 8px;
+  margin-right: 5px;
   color: #555;
 }
 
 .search-input {
-  border: none;
   background: transparent;
   outline: none;
   width: 200px;
