@@ -12,7 +12,6 @@ export const HomePage = () => {
                 <div className="w-full p-4">
                     <form>
                         <fieldset className="w-full max-w-lg">
-                            
                             <input type="text" name='search' id='search' className="w-full p-3 rounded-lg border border-primary focus:outline-none focus:border-white transition-all ease-in-out" placeholder="Busque seu restaurante"/>
                         </fieldset>
                     </form>
@@ -22,7 +21,7 @@ export const HomePage = () => {
                     <nav className="list-nav">
                         <ul>
                             <li>
-                                <a href="#"><img src="./img/casinha.png" alt="" /></a>
+                                <a href="#"><img src="./img/casinha.png"/></a>
                             </li>
                             <li>
                                 <img src="./img/coração.png" alt="favoritos" />
