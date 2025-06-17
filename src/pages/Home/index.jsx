@@ -28,6 +28,11 @@ export const HomePage = () => {
 
                 </nav>
             </div>
+            <div className="container" color="purple" width={88} heigth={90}>
+                
+                
+            </div>
         </header>
     );
 }
+
