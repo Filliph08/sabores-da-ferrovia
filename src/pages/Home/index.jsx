@@ -14,7 +14,11 @@ export const HomePage = () => {
                     <h1>Hello World</h1>
                 </div>
             </div>
+            <div className="container" color="purple" width={88} heigth={90}>
+                
+                
+            </div>
         </main>
-
     );
 }
+
