@@ -1,16 +1,22 @@
-import { Footer } from "../../components/Footer";
 
 export const LoginPage = () => {
     return (
-        <div className="flex flex-col justify-between h-screen">
-            <div>
-                <img src="./img/logo.png" alt="Sabores da ferrovia" width={200} height={200} className="object-contain" />
-                <div class="flex items-center">
-                    <h1 className="text-5xl font-extrabold">Palmeiras não tem mundial</h1>
-                </div>
-            </div>
+        <main className="w-full flex items-center justify-center min-h-screen bg-primary">
+        
+            <div className="w-full max-w-xs bg-neutral-50 p-5">
+                <div class="flex flex-row space-y-4 font-bold"></div>
+                <h1 class="text-xl text-primary justify-center flex">Login</h1>
 
-            <Footer />
-        </div>
+                <form >
+                <p>Digite seu e-mail</p>
+                <input type="text" placeholder="E-mail"/>
+
+                <p>Digite sua senha</p>
+                <input type="password" placeholder="Senha"/>
+                </form>
+                
+            </div>
+        </main>
     );
 }
+
