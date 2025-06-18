@@ -19,26 +19,3 @@ body {
     background-color: var(--bg);
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-logo img {
-  display: block;
-  width: 200px;
-}
-
-.header-pesquisa {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  padding: 1px;
-  border: 2px solid #721424;
-  border-radius: 20px;
-}

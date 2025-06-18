@@ -10,7 +10,7 @@ export const HomePage = () => {
             <div className="w-full">
                 <Header />
 
-                <div>
+                <div className="container">
                     <h1>Hello World</h1>
                 </div>
 
