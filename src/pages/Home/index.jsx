@@ -8,16 +8,13 @@ export const HomePage = () => {
             <Sidebar />
 
             <div className="w-full">
+
             <Header />
 
-                <div>
+                <div className="container">
                     <h1>Hello World</h1>
                 </div>
-            </div>
-            <div className="container" color="purple" width={88} heigth={90}>
-                
-                
-            </div>
+            </div>           
         </main>
     );
 }
