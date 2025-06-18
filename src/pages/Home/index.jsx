@@ -10,11 +10,17 @@ export const HomePage = () => {
             <div className="w-full">
                 <Header />
 
-                <div className="container">
-                    <h1>Hello World</h1>
-                </div>
 
+                <div className="terraço">
+                    <img src="./img/terraço.png" alt="Sabores da ferrovia" width={200} height={200} className="object-contain m-4 " />
+                    <div class="flex flex-row font-bold">
+                        <h1 class=" text-primary cursor-pointer text-xl flex">RESTAURANTE</h1>
+                        <div />
+                    </div>
+
+                </div>
             </div>
+
         </main>
     );
 }
