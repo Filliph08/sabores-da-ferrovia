@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { HomePage } from "./pages/Home";
 import { LoginPage } from "./pages/Login";
 import { CadastroPage } from "./pages/Cadastro";
-import { FormularioPage } from "./pages/formulario";
+import { FormularioPage } from "./pages/Formulario";
 
 function App() {
   return (
