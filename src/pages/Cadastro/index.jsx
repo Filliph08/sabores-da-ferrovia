@@ -2,8 +2,7 @@ import { Footer } from "../../components/Footer";
 
 export const CadastroPage = () => {
     return (
-        <main className="w-full flex items-center justify-center min-h-screen" style={{
-    backgroundImage: "linear-gradient(to right, #721424, #833b47)"}}>
+        <main className="w-full flex items-center justify-center min-h-screen" style={{backgroundImage: "linear-gradient(to right, #721424, #833b47)"}}>
             <div className="w-full max-w-xs bg-neutral-50 p-20 rounded-xl shadow-lg flex flex-col items-center">
                 <div class="flex flex-row space-y-4 font-bold"></div>
                 <h1 className="text-4xl text-primary justify-center flex mb-4">Cadastro:</h1>
